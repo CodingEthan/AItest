@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+  <div>
+    <form action="/uplord_data" id="data_form" method="post" enctype="multipart/form-data">
+      <div>
+        <input type="file" accept=".xls,.xlsx" id="my-file-selector" name="my-file-selector" style="height: 25px;">
+        <br>
+        <input type="text" name="needing" id="data_need" placeholder="数据分析需求描述">
+        <br>
+        <button id="data_submit" type="button">上传图片</button>
+      </div>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+    integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" src="/static/js/javascript.js"></script>
+</body>
+
+</html>
